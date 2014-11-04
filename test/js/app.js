@@ -1,12 +1,13 @@
-var app = angular.module('appForm', []);
+angular.module('appform', []);
 
-app.controller("testForm", function($scope){
+angular.module('appform')
+    .controller("testForm", function($scope){
     var model = {
         "campaign":"",
         "manager":"",
         "sales":"",
         "status":"",
-        "orderBy":"",
+        "orderBy":"trlalala",
         "display":false,
         "options":[]
     };

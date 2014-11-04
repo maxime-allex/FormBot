@@ -1,9 +1,14 @@
-app.directive('formBot', function(){
+angular.module('appform')
+    .directive('form-bot', function(){
     return {
-        restrict : 'A',
-        template :'<div style="width : 20px; height : 20px; background:red"></div>',
-        link : function(scope, element, attr){
-            console.log(scope)
+        link : function(scope, element){
+            alert('otot')
+        },
+        restrict: "A",
+        template : function(elem){
+            var line = '<div style="background:red; width : 20px; height : 20px">';
+
+            elem.append(line);
         }
     }
 });
