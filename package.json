@@ -1,0 +1,22 @@
+{
+    "name": "FormBot",
+    "version": "0.0.1",
+    "description": "A form generator directive for Angular",
+    "author": "Maxime Allex <ma.allex@gmail.com>",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/maxime-allex/FormBot"
+    },
+    "bugs": {
+        "url": "https://github.com/maxime-allex/FormBot/issues"
+    },
+    "devDependencies": {
+        "grunt": "^0.4.5",
+        "grunt-contrib-concat": "^0.5.0",
+        "grunt-contrib-copy": "^0.7.0",
+        "grunt-contrib-uglify": "^0.6.0",
+        "grunt-contrib-watch": "^0.6.1"
+    },
+    "private":true,
+    "license":"MIT"
+}
